@@ -1,0 +1,18 @@
+debug: false
+uuid: 01aa77ac-4a72-47fc-a0a7-bee0c5655581
+token_id: PMdjm8G0z4iHAyDW
+token: pJOsj4mUeGKgV8GkQH9WGdBJOnW28B1St3xj0iwrM23TZxmgQxM8kodUe07y8ana
+api:
+  host: 0.0.0.0
+  port: 443
+  ssl:
+    enabled: false
+    cert: /etc/letsencrypt/live/f973e26b25cbbcbde353aa799444818f.serveo.net/fullchain.pem
+    key: /etc/letsencrypt/live/f973e26b25cbbcbde353aa799444818f.serveo.net/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'https://humble-eureka-4jqwwgww4jq9f5jp7-80.app.github.dev
